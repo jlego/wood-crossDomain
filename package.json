@@ -1,0 +1,22 @@
+{
+  "name": "wood-crossdomain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jlego@github.com/jlego/wood-crossDomain.git"
+  },
+  "keywords": [
+    "wood-crossDomain"
+  ],
+  "author": "jlego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlego/wood-crossDomain/issues"
+  },
+  "homepage": "https://github.com/jlego/wood-crossDomain#readme"
+}
