@@ -12,5 +12,5 @@ module.exports = app => {
     res.header("Access-Control-Allow-Credentials", true);
     next();
   });
-  return app;
+  return true;
 }
