@@ -4,7 +4,7 @@
  * by jlego on 2018-11-17
  */
 
-module.exports = app => {
+module.exports = (app = {}, config = {}) => {
   app.application.all('*', (req, res, next) => {
     res.header("Access-Control-Allow-Origin", app.config.crossDomain);
     res.header("Access-Control-Allow-Headers", app.config.verifyLogin ? "Content-Type,token,secretkey" : "Content-Type");
